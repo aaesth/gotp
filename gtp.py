@@ -39,7 +39,7 @@ def get_beatmap_name(beatmap_id):
         return "Unknown Beatmap"
 
 def main():
-    username = input("Enter osu! username: ")
+    username = input("Enter a username: ")
     
     top_play = get_top_play(username)
     if top_play:
